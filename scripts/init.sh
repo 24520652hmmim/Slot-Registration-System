@@ -49,7 +49,9 @@ gnome-terminal --title="Semester Service" -- bash -c "cd $BASE_DIR/semester-serv
 # # Subject Service
 gnome-terminal --title="Subject Service" -- bash -c "cd $BASE_DIR/subject-service && ./gradlew bootRun; exec bash"
 
-# # User Service
+# #Cancellation service
+gnome-terminal --title="Cancellation service" -- bash -c "cd $BASE_DIR/cancellation-service && ./gradlew bootRun; exec bash" 
+# # User Service 
 gnome-terminal --title="User Service" -- bash -c "cd $BASE_DIR/user-service && ./gradlew bootRun; exec bash"
 
 # # Wish Subject Service
